@@ -1,6 +1,6 @@
 FROM nvidia/cuda:9.1-devel
 
-ENV BMINER_BINARY=v5.2.0-4f20af3
+ENV BMINER_VERSION=v5.2.0-4f20af3
 
 RUN set -x \
   && apt-get update \
