@@ -14,4 +14,6 @@ RUN set -x \
 
 ENTRYPOINT ["bminer"]
 
+EXPOSE 3500
+
 CMD ["-h"]
