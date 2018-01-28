@@ -6,7 +6,7 @@ RUN set -x \
   && apt-get update \
   && apt-get install -y --no-install-recommends curl ca-certificates \
   && curl -fSL https://www.bminercontent.com/releases/bminer-${BMINER_VERSION}-amd64.tar.xz -o bminer.tar.xz \
-  && tar -xvf bminer.tar.gz \
+  && tar -xvf bminer.tar.xz \
   && mv bminer /usr/local/bin \
   && apt-get remove -y curl \
   && apt autoremove -y \
