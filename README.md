@@ -1,6 +1,14 @@
 # bminer
 Bminer's Dockerized CUDA miner
 
+# Summary
+Dockerizes the bminer binary. Run the docker container as if it were the actual binary, simply pass in flags.
+
+# Dependencies
+- nvidia GPUs
+- CUDA drivers for your machine, see https://developer.nvidia.com/cuda-downloads?target_os=Linux
+- [nvidia-docker](https://github.com/NVIDIA/nvidia-docker)
+
 ```
 docker run -d \
 --net host \
